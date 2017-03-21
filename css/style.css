@@ -1,0 +1,119 @@
+/*Import Fonts - Cabin(sans-serif), Merriweather(serif)*/
+@import url('https://fonts.googleapis.com/css?family=Cabin|Merriweather');
+
+/* Multiuse */
+.centered {
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-clear {
+    clear: both;
+}
+
+.inline {
+    display: inline;
+}
+
+.abs-elm {
+    position: absolute;
+}
+
+.rel-elm {
+    position: relative;
+}
+
+.weight-light {
+    font-weight: lighter;
+}
+
+.weight-bold {
+    font-weight: bold;
+}
+
+.borderless {
+    border-style: hidden;
+}
+/* Header and Navigation*/
+
+nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-image: url('../img/nav-texture.png');
+    background-color: #39785a;
+    z-index: 2;
+    border-bottom: 2px groove #333333;
+}
+
+nav ul {
+    margin: 15px 0px;
+}
+
+nav ul li {
+    padding: 0px 75px;
+    border-left: 1px groove #226343;
+    border-right: 1px groove #226343;
+}
+
+nav ul li a {
+    color: #fff1df;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #cc937f;
+}
+
+/* Body Begin */
+
+body {
+    background-color: #598f79;
+    margin: 0;
+}
+
+/* Hero-Tron */
+#hero-container {
+    height: 600px;
+    width: 100%;
+    
+    margin: 0 5px;
+    background: url('../img/hero.jpg') fixed;
+    background-size: cover;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    
+    /*margin-left: 25%;*/
+    /*top: 12%;*/
+    
+    background-color: #b2ccc0;
+    background-color: rgba(55, 55, 55, 0.65);
+    border: 2px groove;
+    border-color: #333333;
+    border-color: rgba(15, 15, 15, 0.55);
+}
+
+/* Circle and Bar*/
+
+#break-bar {
+    height: 100px;
+    width: 100%;
+    bottom: -56px;
+    
+    background-color: #fff1df;
+    border-top: 2px outset #333333;
+    border-bottom: 2px outset #333333;
+    z-index: 0;
+}
