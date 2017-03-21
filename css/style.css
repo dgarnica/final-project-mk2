@@ -86,7 +86,7 @@ body {
     height: 600px;
     width: 100%;
     
-    margin: 0 5px;
+    margin: 0;
     background: url('../img/hero.jpg') fixed;
     background-size: cover;
 }
