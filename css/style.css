@@ -1,5 +1,5 @@
 /*Import Fonts - Cabin(sans-serif), Merriweather(serif)*/
-@import url('https://fonts.googleapis.com/css?family=Cabin|Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display:400,700,900');
 
 /* Multiuse */
 .centered {
@@ -48,36 +48,42 @@ nav {
     height: 50px;
     width: 100%;
     background-image: url('../img/nav-texture.png');
-    background-color: #39785a;
+    background-size: contain;
+    background-color: #2f506b;
     z-index: 2;
     border-bottom: 2px groove #333333;
 }
 
 nav ul {
-    margin: 15px 0px;
+    width: 100%;
+    margin-left:-35px;
+    margin-top: 13px;
 }
 
 nav ul li {
-    padding: 0px 75px;
+    padding: 0px 35px 0px 35px;
     border-left: 1px groove #226343;
     border-right: 1px groove #226343;
 }
 
 nav ul li a {
-    color: #fff1df;
+    color: #fff7f6;
     text-decoration: none;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
     font-size: 20px;
 }
 
 nav ul li a:hover {
-    color: #cc937f;
+    color: #b88381;
 }
 
 /* Body Begin */
 
 body {
-    background-color: #598f79;
+    overflow: auto;
+    background-color: #edeffe;
+    width: 100%;
     margin: 0;
 }
 
@@ -99,21 +105,99 @@ body {
     /*top: 12%;*/
     
     background-color: #b2ccc0;
-    background-color: rgba(55, 55, 55, 0.65);
+    background-color: rgba(55, 55, 55, 0.10);
     border: 2px groove;
     border-color: #333333;
     border-color: rgba(15, 15, 15, 0.55);
 }
 
-/* Circle and Bar*/
-
-#break-bar {
-    height: 100px;
+#hero>#headline {
+    top: 45%;
     width: 100%;
-    bottom: -56px;
+    margin: 0;
     
-    background-color: #fff1df;
-    border-top: 2px outset #333333;
-    border-bottom: 2px outset #333333;
-    z-index: 0;
+    background-color: rgba(22, 22, 22, 0.65);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 86px;
+    font-weight: 900;
+    color: #fff;
+}
+
+#sub-headline {
+    width: 100%;
+    
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+/* Main */
+
+#main-style {
+clear: both;
+}
+
+/* Three Blue Boxes*/
+
+#3-box-container {
+    height: 300px;
+    background-color: #333;
+}
+
+.blue-box {
+    height: 200px;
+    width: 200px;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    background-color: #657b8c;
+}
+
+.fa-heart-o {
+    margin-left: 34px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.fa-phone {
+    margin-left: 52px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.fa-hourglass-half {
+    margin-left: 47px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.fa-5x {
+    font-size: 125px;
+}
+
+#box-heart {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    width: 200px;
+    margin-top: -2px;
+}
+
+#box-phone {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    width: 200px;
+    margin-top: -5px;
+}
+
+#center-box {
+    width: 200px;
+    height: 200px;
+}
+
+#box-hourglass {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    width: 200px;
+    margin-top: 12px;
 }

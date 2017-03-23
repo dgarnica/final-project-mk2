@@ -9,13 +9,14 @@
         <meta name="author" content="Dann Garnica" />
         
         <!-- Links -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     
     <body>
         <header>
             <nav>
-                <ul class="centered">
+                <ul class="rel-elm float-left">
                     <li class="inline"><a href="#">Home</a></li>
                     <li class="inline borderless"><a href="#">About</a></li>
                     <li class="inline"><a href="#">Contact</a></li>
@@ -25,8 +26,18 @@
         </header>
         
         <div id="hero-container">
-            <div class ="abs-elm" id="hero"></div>
+            <div class ="abs-elm" id="hero">
+                <h1 class="abs-elm centered" id="headline">Yikes.</h1>
+            </div>
         </div>
-        <div class="abs-elm" id="break-bar"></div>
+        
+        <main id="main-style inline">
+            <div class="rel-elm inline" id="3-box-container">
+                <div class="blue-box float-left"><i class="fa fa-heart-o fa-5x"></i><h3 class="centered" id="box-heart">We Care About Your Stuff<h3></div>
+                <div class="blue-box float-left" id="center-box"><i class="fa fa-phone fa-5x"></i><h3 class="centered" id="box-phone">24-7 Appointment Line</h3></div>
+                <div class="blue-box float-right"><i class="fa fa-hourglass-half fa-5x"></i><h3 class="centered" id="box-hourglass">Lightning Quick Service.</h3></div>
+                <br class="float-clear" />
+            </div>
+        </main>
     </body>
-</html>
+</html> 
