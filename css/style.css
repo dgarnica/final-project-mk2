@@ -1,5 +1,5 @@
 /*Import Fonts - Cabin(sans-serif), Merriweather(serif)*/
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display:900|Slabo+27px');
 
 /* Multiuse */
 .centered {
@@ -78,12 +78,11 @@ nav ul li a:hover {
     color: #b88381;
 }
 
-/* Body Begin */
+/*/// Body Begin ///*/
 
 body {
-    overflow: auto;
+    overflow-x: hidden;
     background-color: #edeffe;
-    width: 100%;
     margin: 0;
 }
 
@@ -106,8 +105,7 @@ body {
     
     background-color: #b2ccc0;
     background-color: rgba(55, 55, 55, 0.10);
-    border: 2px groove;
-    border-color: #333333;
+    border-top: 1px groove #333;
     border-color: rgba(15, 15, 15, 0.55);
 }
 
@@ -132,26 +130,31 @@ body {
     color: #fff;
 }
 
-/* Main */
-
-#main-style {
-clear: both;
-}
+/*/// Main ///*/
 
 /* Three Blue Boxes*/
 
-#3-box-container {
-    height: 300px;
-    background-color: #333;
+#three-box-container {
+    height: 200px;
+    width: 100%;
+    margin-left: 26%;
+    margin-bottom: 5em;
 }
 
 .blue-box {
     height: 200px;
     width: 200px;
+    border-radius: 10%;
+    background-color: #657b8c;
+}
+
+#center-box {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: #657b8c;
     margin-left: 5em;
     margin-right: 5em;
-    margin-top: 2em;
-    background-color: #657b8c;
 }
 
 .fa-heart-o {
@@ -190,14 +193,40 @@ clear: both;
     margin-top: -5px;
 }
 
-#center-box {
-    width: 200px;
-    height: 200px;
-}
-
 #box-hourglass {
     font-family: 'Merriweather', serif;
     color: #fff;
     width: 200px;
     margin-top: 12px;
+}
+
+/* Main Text */
+
+#main-text-container {
+    font-family: 'Slabo 27px', sans-serif;
+    font-size: 24px;
+    color: #333;
+    
+    height: 200px;
+    width: 100%;
+    margin-bottom: 45px;
+    background-color: #fff8f0;
+    border-top: 1px groove #333;
+    border-bottom: 1px groove #333;
+    border-color: rgba(15, 15, 15, 0.55);
+}
+
+#main-text-container>p {
+    margin-top: 35px;
+    line-height: 1.25;
+}
+/*/// Footer ///*/
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #fff8f0;
+    border-top: 1px groove #333;
+    border-color: rgba(15, 15, 15, 0.55);
+    margin-top: -45px;
 }
