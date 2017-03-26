@@ -1,7 +1,8 @@
 /*Import Fonts - Cabin(sans-serif), Merriweather(serif)*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display:900|Slabo+27px');
 
-/* Multiuse */
+/*/// Multiuse ///*/
+
 .centered {
     text-align: center;
 }
@@ -41,7 +42,16 @@
 .borderless {
     border-style: hidden;
 }
-/* Header and Navigation*/
+
+/*/// Body Begin ///*/
+
+body {
+    overflow-x: hidden;
+    background-color: #edeffe;
+    margin: 0;
+}
+
+/* Header and Navigation */
 
 nav {
     position: fixed;
@@ -77,15 +87,9 @@ nav ul li a:hover {
     color: #b88381;
 }
 
-/*/// Body Begin ///*/
-
-body {
-    overflow-x: hidden;
-    background-color: #edeffe;
-    margin: 0;
-}
 
 /* Hero-Tron */
+
 #hero-container {
     height: 37.25em;
     width: 100%;
@@ -142,44 +146,42 @@ body {
 }
 
 .blue-box {
-    height: 12.5em;
-    width: 12.5em;
+    height: 12em;
+    width: 12em;
     border-radius: 10%;
     background-color: #657b8c;
 }
 
 #center-box {
-    height: 12.5em;
-    width: 12.5em;
+    height: 12em;
+    width: 12em;
     border-radius: 10%;
     background-color: #657b8c;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 5.75em;
+    margin-right: 5.75em;
 }
 
 .fa-heart {
-    margin-left: 0.55em;
-    margin-top: 0.3em;
+    margin-left: 0.74em;
+    margin-top: 0.35em;
     margin-bottom: 0.2em;
     color: #fff;
 }
 
 .fa-phone {
-    margin-left: 0.6em;
-    margin-top: 0.3em;
+    margin-left: 0.83em;
+    margin-top: 0.4em;
     margin-bottom: 0.2em;
     color: #fff;
 }
 
 .fa-hourglass-half {
-    margin-left: 0.6em;
-    margin-top: 0.3em;
+    margin-left: 1.12em;
+    margin-top: 0.6em;
     color: #fff;
 }
 
-.fa-5x {
-    font-size: 6em;
-}
+
 
 #box-heart {
     font-family: 'Merriweather', serif;
@@ -229,6 +231,7 @@ footer {
 }
 
 /* Social Media */
+
 #social-media-container {
     margin-left: 50%;
     top: 1.5em;
