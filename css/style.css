@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.justified {
+    text-align: justify;
+}
+
 .float-left {
     float: left;
 }
@@ -43,6 +47,13 @@
     border-style: hidden;
 }
 
+.white-text {
+    color: #fff;
+}
+
+.logo-colored-text {
+    color: #38453E;
+}
 /*/// Body Begin ///*/
 
 body {
@@ -116,7 +127,7 @@ nav ul li a:hover {
     background-color: #38453E;
     background-color: rgba(56, 69, 62, 0.65);
     font-family: 'Playfair Display', sans-serif;
-    font-size: 5.5em;
+    font-size: 3.5em;
     font-weight: 900;
     color: #fff;
 }
@@ -131,10 +142,6 @@ nav ul li a:hover {
 /*}*/
 
 /* Logo */
-
-.logo-colored-text {
-    color: #38453E;
-}
 
 #logo {
     left: 50%;
@@ -209,7 +216,10 @@ nav ul li a:hover {
 }
 
 #main-text-container>p {
+    width: 24em;
     margin-top: 1.75em;
+    left: 50%;
+    transform: translateX(-50%);
     line-height: 1.25;
 }
 
@@ -217,7 +227,7 @@ nav ul li a:hover {
 
 #three-box-container {
     height: 12.5em;
-    width: 47.5em;
+    width: 48em;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -230,30 +240,41 @@ nav ul li a:hover {
 }
 
 #center-box {
-    height: 12em;
-    width: 12em;
+    height: 14.5em;
+    width: 14.5em;
+    cursor: pointer;
     border-radius: 10%;
-    background-color: #38453E;
-    margin-left: 5.75em;
-    margin-right: 5.75em;
+    border: 0.5em outset #576;
+    background-color: #4a7750;
+    margin-left: 7.25em;
+    margin-right: 7em;
+}
+
+#center-box:active {
+    border: 0.5em inset #576;
+}
+
+#center-box:hover {
+    background-color: #339764;
+    border-color: #798;
 }
 
 .fa-heart {
-    margin-left: 0.74em;
+    margin-left: 0.7em;
     margin-top: 0.35em;
     margin-bottom: 0.2em;
     color: #F1FFF8;
 }
 
-.fa-phone {
-    margin-left: 0.83em;
-    margin-top: 0.4em;
-    margin-bottom: 0.2em;
+.fa-book {
+    margin-left: 0em;
+    margin-top: 0.25em;
+    margin-bottom: 0.35em;
     color: #F1FFF8;
 }
 
 .fa-hourglass-half {
-    margin-left: 1.12em;
+    margin-left: 1.075em;
     margin-top: 0.6em;
     color: #F1FFF8;
 }
@@ -266,7 +287,7 @@ nav ul li a:hover {
     margin-left: 0.65em;
 }
 
-#box-phone {
+#box-book {
     font-family: 'Merriweather', serif;
     color: #F1FFF8;
     width: 9em;
@@ -305,9 +326,7 @@ footer {
 }
 
 #social-media-container>a {
-    padding-top: 1.25em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding: 1.25em 0.5em 0em 0.5em;
 }
 
 .icons {
