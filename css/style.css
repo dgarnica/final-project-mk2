@@ -1,4 +1,4 @@
-/*Import Fonts - Cabin(sans-serif), Merriweather(serif)*/
+/* Import Fonts - Playfair-Display(serif, 900 weight), Merriweather(serif), Slabo 27px(sans-serif) */
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display:900|Slabo+27px');
 
 /*/// Multiuse ///*/
@@ -47,36 +47,38 @@
 
 body {
     overflow-x: hidden;
-    background-color: #edeffe;
+    background-color: #DFF8EB;
     margin: 0;
+    cursor: default;
 }
 
 /* Header and Navigation */
 
 nav {
     position: fixed;
-    height: 3em;
+    height: 2em;
     width: 100%;
     background-image: url('../img/nav-texture.png');
     background-size: contain;
-    background-color: #657b8c;
+    background-color: #4a7750;
     z-index: 2;
-    border-bottom: 0.115em groove #333333;
+    border-bottom: 0.115em groove #38453E;
 }
 
 nav ul {
     width: 100%;
     margin-left:-2.25em;
+    top: -0.65em;
 }
 
 nav ul li {
     padding: 0 2em 0 2em;
-    border-left: 0.1em groove #226343;
-    border-right: 0.1em groove #226343;
+    border-left: 0.1em groove #38453E;
+    border-right: 0.1em groove #38453E;
 }
 
 nav ul li a {
-    color: #fff7f6;
+    color: #38453E;
     text-decoration: none;
     font-family: 'Merriweather', serif;
     font-weight: 400;
@@ -84,9 +86,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #b88381;
+    color: #F1FFF8;
 }
-
 
 /* Hero-Tron */
 
@@ -102,102 +103,96 @@ nav ul li a:hover {
 #hero {
     height: 37.25em;
     width: 100%;
-    background-color: #b2ccc0;
+    background-color: transparent;
     background-color: rgba(55, 55, 55, 0.10);
-    border-top: 0.1em groove #333;
-    border-color: rgba(15, 15, 15, 0.55);
+    border-top: 0.1em groove #38453E;
+    border-color: rgba(56, 69, 62, 0.55);
 }
 
 #hero>#headline {
     top: 45%;
     width: 100%;
     margin: 0;
-    background-color: #333;
-    background-color: rgba(22, 22, 22, 0.65);
+    background-color: #38453E;
+    background-color: rgba(56, 69, 62, 0.65);
     font-family: 'Playfair Display', sans-serif;
     font-size: 5.5em;
     font-weight: 900;
     color: #fff;
 }
 
-#sub-headline {
-    width: 100%;
+/*#sub-headline {*/
+/*    width: 100%;*/
     
-    font-family: 'Merriweather', serif;
-    font-size: 3em;
-    font-weight: lighter;
+/*    font-family: 'Merriweather', serif;*/
+/*    font-size: 3em;*/
+/*    font-weight: lighter;*/
+/*    color: #fff;*/
+/*}*/
+
+/* Logo */
+
+.logo-colored-text {
+    color: #38453E;
+}
+
+#logo {
+    left: 50%;
+    transform: translateX(-50%);
+    
+    height: 14em;
+    width: 14em;
+    
+    background-image: url('../img/ladycircle.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50%;
+    margin-top: -12.5em;
+}
+
+#sml-circle {
+    height: 10.5em;
+    width: 10.5em;
+    
+    top: 32%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background-color: #4a7750;
+    border: 0.05em outset #38453E;
+    border-radius: 50%;
+}
+
+/* MM */
+#sml-circle>h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5em;
+    font-weight: 900;
     color: #fff;
+    margin-top: 0.23em;
+}
+
+/* Modern Maid */
+#sml-circle>h5 {
+    width: 7em;
+    top: 44%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25em;
 }
 
 /*/// Main ///*/
 
 #main-style {
     margin: 0;
-    height: 34em;
+    height: 32.55em;
     width: 100%;
-}
-/* Three Blue Boxes*/
-
-#three-box-container {
-    height: 12.5em;
-    width: 47.5em;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.blue-box {
-    height: 12em;
-    width: 12em;
-    border-radius: 10%;
-    background-color: #657b8c;
-}
-
-#center-box {
-    height: 12em;
-    width: 12em;
-    border-radius: 10%;
-    background-color: #657b8c;
-    margin-left: 5.75em;
-    margin-right: 5.75em;
-}
-
-.fa-heart {
-    margin-left: 0.74em;
-    margin-top: 0.35em;
-    margin-bottom: 0.2em;
-    color: #fff;
-}
-
-.fa-phone {
-    margin-left: 0.83em;
-    margin-top: 0.4em;
-    margin-bottom: 0.2em;
-    color: #fff;
-}
-
-.fa-hourglass-half {
-    margin-left: 1.12em;
-    margin-top: 0.6em;
-    color: #fff;
-}
-
-
-
-#box-heart {
-    font-family: 'Merriweather', serif;
-    color: #fff;
-    margin-top: -0.1em;
-}
-
-#box-phone {
-    font-family: 'Merriweather', serif;
-    color: #fff;
-    margin-top: -0.1em;
-}
-
-#box-hourglass {
-    font-family: 'Merriweather', serif;
-    color: #fff;
 }
 
 /* Main Text */
@@ -205,9 +200,9 @@ nav ul li a:hover {
 #main-text-container {
     font-family: 'Slabo 27px', sans-serif;
     font-size: 1.45em;
-    color: #333;
+    color: #323232;
     margin-bottom: 2em;
-    background-color: #fff8f0;
+    background-color: #F1FFF8;
     border-top: 0.1em groove #333;
     border-bottom: 0.1em groove #333;
     border-color: rgba(15, 15, 15, 0.55);
@@ -218,12 +213,81 @@ nav ul li a:hover {
     line-height: 1.25;
 }
 
+/* Three Blue Boxes*/
+
+#three-box-container {
+    height: 12.5em;
+    width: 47.5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.green-box {
+    height: 12em;
+    width: 12em;
+    border-radius: 10%;
+    background-color: #38453E;
+}
+
+#center-box {
+    height: 12em;
+    width: 12em;
+    border-radius: 10%;
+    background-color: #38453E;
+    margin-left: 5.75em;
+    margin-right: 5.75em;
+}
+
+.fa-heart {
+    margin-left: 0.74em;
+    margin-top: 0.35em;
+    margin-bottom: 0.2em;
+    color: #F1FFF8;
+}
+
+.fa-phone {
+    margin-left: 0.83em;
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+    color: #F1FFF8;
+}
+
+.fa-hourglass-half {
+    margin-left: 1.12em;
+    margin-top: 0.6em;
+    color: #F1FFF8;
+}
+
+#box-heart {
+    font-family: 'Merriweather', serif;
+    color: #F1FFF8;
+    width: 9em;
+    margin-top: -0.35em;
+    margin-left: 0.65em;
+}
+
+#box-phone {
+    font-family: 'Merriweather', serif;
+    color: #F1FFF8;
+    width: 9em;
+    margin-top: -0.5em;
+    margin-left: 0.65em;
+}
+
+#box-hourglass {
+    font-family: 'Merriweather', serif;
+    color: #F1FFF8;
+    width: 9em;
+    margin-top: 1em;
+    margin-left: 0.65em;
+}
+
 /*/// Footer ///*/
 
 footer {
     height: 9em;
     width: 100%;
-    background-color: #fff8f0;
+    background-color: #F1FFF8;
     border-top: 0.1em groove #333;
     border-color: rgba(15, 15, 15, 0.55);
     margin-top: -3.25em;
@@ -242,18 +306,18 @@ footer {
 
 #social-media-container>a {
     padding-top: 1.25em;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .icons {
     margin: 0.5em 0em 0 0em;
-    color: #333;
+    color: #38453E;
     font-size: 2.7em;
 }
 
 .icons:hover {
-    color: #657b8c;
+    color: #339764;
 }
 
 /* Site Map */
@@ -274,11 +338,11 @@ footer {
 #site-map-container>ul>li>a {
     font-family: 'Merriweather', serif;
     text-decoration: none;
-    color: #333;
+    color: #38453E;
 }
 
 #site-map-container>ul>li>a:hover {
-    color: #657b8c;
+    color: #339764;
 }
 
 /* Copyright */
@@ -287,4 +351,6 @@ footer {
     font-family: 'Slabo 27px', sans-serif;
     margin-top: -2em;
     font-size: 0.72em;
+    color: #38453E;
+    text-decoration: none;
 }
