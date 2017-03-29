@@ -54,6 +54,10 @@
 .logo-colored-text {
     color: #38453E;
 }
+
+.active {
+    color: #F1FFF8;
+}
 /*/// Body Begin ///*/
 
 body {
@@ -131,15 +135,6 @@ nav ul li a:hover {
     font-weight: 900;
     color: #fff;
 }
-
-/*#sub-headline {*/
-/*    width: 100%;*/
-    
-/*    font-family: 'Merriweather', serif;*/
-/*    font-size: 3em;*/
-/*    font-weight: lighter;*/
-/*    color: #fff;*/
-/*}*/
 
 /* Logo */
 
@@ -235,72 +230,82 @@ nav ul li a:hover {
 .green-box {
     height: 12em;
     width: 12em;
-    border-radius: 10%;
+    border-radius: 50%;
     background-color: #38453E;
 }
 
 #center-box {
-    height: 14.5em;
-    width: 14.5em;
+    height: 12em;
+    width: 12em;
     cursor: pointer;
-    border-radius: 10%;
-    border: 0.5em outset #576;
+    border-radius: 50%;
+    border: 0.15em groove #496;
     background-color: #4a7750;
-    margin-left: 7.25em;
-    margin-right: 7em;
+    margin-left: 5.5em;
+    margin-right: 5.5em;
 }
 
 #center-box:active {
-    border: 0.5em inset #576;
+    border: 0.15em inset #6c7;
 }
 
 #center-box:hover {
     background-color: #339764;
-    border-color: #798;
+    border-color: #6c7;
+}
+
+#center-box a {
+    text-decoration: none;
+    line-height: 0.98;
+    height: 12.5em;
+    width: 12.5em;
+    border-radius: 50%;
 }
 
 .fa-heart {
     margin-left: 0.7em;
-    margin-top: 0.35em;
+    margin-top: 0.33em;
     margin-bottom: 0.2em;
     color: #F1FFF8;
 }
 
 .fa-book {
-    margin-left: 0em;
+    margin-left: 0.75em;
     margin-top: 0.25em;
-    margin-bottom: 0.35em;
     color: #F1FFF8;
 }
 
 .fa-hourglass-half {
     margin-left: 1.075em;
-    margin-top: 0.6em;
+    margin-top: 0.5em;
     color: #F1FFF8;
 }
 
 #box-heart {
     font-family: 'Merriweather', serif;
+    font-size: 1.25em;
     color: #F1FFF8;
     width: 9em;
-    margin-top: -0.35em;
-    margin-left: 0.65em;
+    margin-top: -0.65em;
+    margin-left: 0.45em;
 }
 
 #box-book {
     font-family: 'Merriweather', serif;
+    font-size: 1.2em;
     color: #F1FFF8;
     width: 9em;
-    margin-top: -0.5em;
-    margin-left: 0.65em;
+    margin-left: 0.5em;
+    margin-top: 0.15em;
 }
 
 #box-hourglass {
     font-family: 'Merriweather', serif;
+    font-size: 1.25em;
     color: #F1FFF8;
     width: 9em;
     margin-top: 1em;
-    margin-left: 0.65em;
+    margin-left: 0.25em;
 }
 
 /*/// Footer ///*/
@@ -312,13 +317,13 @@ footer {
     border-top: 0.1em groove #333;
     border-color: rgba(15, 15, 15, 0.55);
     margin-top: -3.25em;
-    margin-bottom: 0;
+    padding-bottom: 0.5em;
 }
 
 /* Social Media */
 
 #social-media-container {
-    margin-left: 50%;
+    left: 50%;
     top: 1.5em;
     transform: translateX(-50%);
     height: 5em;
@@ -326,7 +331,7 @@ footer {
 }
 
 #social-media-container>a {
-    padding: 1.25em 0.5em 0em 0.5em;
+    padding: 1.25em 0.15em 0em 0.5em;
 }
 
 .icons {
@@ -344,8 +349,8 @@ footer {
 #site-map-container {
     width: 50em;
     margin-top: 0.15em;
-    margin-left: 50%;
-    transform: translateX(-52%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #site-map-container>ul>li{
@@ -368,7 +373,7 @@ footer {
 
 #copyright {
     font-family: 'Slabo 27px', sans-serif;
-    margin-top: -2em;
+    margin-top: -1.4em;
     font-size: 0.72em;
     color: #38453E;
     text-decoration: none;
