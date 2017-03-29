@@ -62,6 +62,13 @@
 .active {
     color: #F1FFF8;
 }
+
+.white-field {
+    width: 100%;
+    background-color: #F1FFF8;
+    border: 0.05em groove #38453E;
+    margin: 1em 0em 1em 0em;
+}
 /*/// Body Begin ///*/
 
 body {
@@ -130,7 +137,7 @@ nav ul li a:hover {
 }
 
 #hero>#headline {
-    top: 45%;
+    top: 4.15em;
     width: 100%;
     margin: 0;
     background-color: #38453E;
@@ -164,7 +171,7 @@ nav ul li a:hover {
     height: 10.5em;
     width: 10.5em;
     
-    top: 32%;
+    top: 4.5em;
     left: 50%;
     transform: translateX(-50%);
     
@@ -185,7 +192,7 @@ nav ul li a:hover {
 /* Modern Maid */
 #sml-circle>h5 {
     width: 7em;
-    top: 44%;
+    top: 3.95em;
     left: 50%;
     transform: translateX(-50%);
     
@@ -329,8 +336,8 @@ footer {
 /* Social Media */
 
 #social-media-container {
-    left: 50%;
     top: 1.5em;
+    left: 50%;
     transform: translateX(-50%);
     height: 5em;
     width: 50em;
@@ -383,4 +390,22 @@ footer {
     font-size: 0.72em;
     color: #38453E;
     text-decoration: none;
+}
+
+#copyright>a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #339764;
+}
+
+#copyright>a:hover {
+    color: #38453E;
+}
+
+#copyright>a:visited {
+    color: #339764;
+}
+
+#copyright>a:visited:hover {
+    color: #38453E;
 }

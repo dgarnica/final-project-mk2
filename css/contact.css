@@ -1,0 +1,17 @@
+
+main {
+    height: 25em;
+    background-color: #F1FFF8;
+}
+
+#contact-headline {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: #fff;
+    width: 100%;
+    margin-top: 2em;
+    padding: 0.1em 0em 0.1em 0.5em;
+    background-color: transparent;
+    background-color: rgba(56, 69, 62, 0.65);
+    
+}
