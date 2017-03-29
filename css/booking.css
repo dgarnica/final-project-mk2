@@ -41,9 +41,17 @@ main>div>p {
 #booking-iframe {
     left: 50%;
     transform: translateX(-50%);
-    margin-top: -0.75em;
-    margin-bottom: 3.25em;
+    margin-top: 0.15em;
+    margin-bottom: 4.25em;
     width: 40.22em;
     height: 100em;
     border: 0.075em groove #333;
+}
+
+#maid-image {
+    width: 20em;
+    height: 20em;
+    top: -3em;
+    right: -2.5em;
+    z-index: -1;
 }
