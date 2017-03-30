@@ -1,7 +1,7 @@
 
 main {
-    height: 25em;
     background-color: #F1FFF8;
+    border-bottom: 0.015em groove #333;
 }
 
 #contact-headline {
@@ -13,5 +13,57 @@ main {
     padding: 0.1em 0em 0.1em 0.5em;
     background-color: transparent;
     background-color: rgba(56, 69, 62, 0.65);
-    
+}
+
+footer {
+  margin-top: 0.75em;
+}
+
+/* 3 Column Paragraphs*/
+.col-container {
+  font-family: 'Slabo 27px', sans-serif;
+  font-size: 1.25em;
+  height: 15em;
+  top: 8em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.col-1 {
+  height: 5.75em;
+  width: 25%;
+  padding-left: 1em;
+  margin-left: 1em;
+  border-left: 0.025em groove #333;
+}
+
+.col-2 {
+  height: 5.75em;
+  width: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.col-3 {
+  height: 5.75em;
+  width: 25%;
+  margin-right: 1em;
+  padding-right: 1em;
+  border-right: 0.025em groove #333;
+}
+
+/* iFrames */
+#contact-iframe {
+  height: 50em;
+  width: 28em;
+  top: 1em;
+  margin: 1em 0.15em 1em 2em;
+}
+
+#map-iframe {
+  height: 25em;
+  width: 25em;
+  margin: 15em 2em 1em 0.15em;
 }
