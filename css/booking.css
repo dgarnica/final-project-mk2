@@ -5,7 +5,7 @@ main {
     margin-bottom: 0;
 }
 
-/* Services and Pricing Lists */
+    /* Services and Pricing Lists */
 
 .services-headline {
     font-family: 'Merriweather', serif;
@@ -23,14 +23,14 @@ main {
     font-size: 1.25em;
 }
 
-/* Disclaimer */
+    /* Disclaimer */
 main>div>p {
     font-size: 0.85em;
     margin-top: -1.05em;
     margin-right: 0.25em;
 }
 
-/* Booking iframe*/
+    /* Booking iframe*/
 #booking-iframe {
     left: 50%;
     transform: translateX(-50%);

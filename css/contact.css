@@ -15,7 +15,7 @@ main {
     background-color: rgba(56, 69, 62, 0.65);
 }
 
-/* 3 Column Paragraphs*/
+    /* 3 Column Paragraphs*/
 .col-container {
   font-family: 'Slabo 27px', sans-serif;
   font-size: 1.25em;
@@ -58,7 +58,7 @@ main {
   transform: translateX(-50%);
 }
 
-/* iFrames */
+    /* iFrames */
 #map-iframe {
   display: block;
   margin-top: -1em;
@@ -87,9 +87,8 @@ main {
 }
 
 #contact-maid-image {
-    width: 15em;
-    height: 15em;
-    top: 88em;
+    width: 20em;
+    height: 20em;
+    top: 82.5em;
     right: 0em;
-    z-index: 1;
 }
