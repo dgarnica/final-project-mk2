@@ -7,6 +7,13 @@
     text-align: center;
 }
 
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
 .justified {
     text-align: justify;
 }
@@ -69,8 +76,8 @@
     border: 0.05em groove #38453E;
     margin: 1em 0em 1em 0em;
 }
-/*/// Body Begin ///*/
 
+/*/// Body Begin ///*/
 body {
     overflow-x: hidden;
     background-color: #DFF8EB;
@@ -121,7 +128,7 @@ nav ul li a:hover {
 #hero-container {
     height: 37.25em;
     width: 100%;
-    
+
     margin: 0;
     background: url('../img/hero.jpg') fixed;
     background-size: cover;
@@ -153,10 +160,10 @@ nav ul li a:hover {
 #logo {
     left: 50%;
     transform: translateX(-50%);
-    
+
     height: 14em;
     width: 14em;
-    
+
     background-image: url('../img/ladycircle.png');
     background-size: contain;
     background-position: center;
@@ -170,11 +177,11 @@ nav ul li a:hover {
 #sml-circle {
     height: 10.5em;
     width: 10.5em;
-    
+
     top: 4.5em;
     left: 50%;
     transform: translateX(-50%);
-    
+
     background-color: #4a7750;
     border: 0.05em outset #38453E;
     border-radius: 50%;
@@ -195,7 +202,7 @@ nav ul li a:hover {
     top: 3.95em;
     left: 50%;
     transform: translateX(-50%);
-    
+
     color: #fff;
     font-family: 'Playfair Display', serif;
     font-size: 1.25em;
